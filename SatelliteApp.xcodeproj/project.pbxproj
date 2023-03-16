@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF21CAD29C2678800B1C403 /* SatelliteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CAC29C2678800B1C403 /* SatelliteApp.swift */; };
+		4DF21CAF29C2678800B1C403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CAE29C2678800B1C403 /* ContentView.swift */; };
+		4DF21CB129C2678900B1C403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF21CB029C2678900B1C403 /* Assets.xcassets */; };
+		4DF21CB429C2678900B1C403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF21CB329C2678900B1C403 /* Preview Assets.xcassets */; };
+		4DF21CBE29C2678A00B1C403 /* SatelliteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CBD29C2678A00B1C403 /* SatelliteAppTests.swift */; };
+		4DF21CC829C2678A00B1C403 /* SatelliteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CC729C2678A00B1C403 /* SatelliteAppUITests.swift */; };
+		4DF21CCA29C2678A00B1C403 /* SatelliteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CC929C2678A00B1C403 /* SatelliteAppUITestsLaunchTests.swift */; };
+		4DF21CD729C26A5300B1C403 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CD629C26A5300B1C403 /* SecondView.swift */; };
+		4DF21CD929C27AB300B1C403 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CD829C27AB300B1C403 /* ThirdView.swift */; };
+		4DF21CDB29C287D700B1C403 /* SatelliteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CDA29C287D700B1C403 /* SatelliteView.swift */; };
+		4DF21CDD29C2990A00B1C403 /* SatelliteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF21CDC29C2990A00B1C403 /* SatelliteModel.swift */; };
+		4DF21CE029C2A35100B1C403 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4DF21CDF29C2A35100B1C403 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF21CBA29C2678A00B1C403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF21CA129C2678800B1C403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF21CA829C2678800B1C403;
+			remoteInfo = SatelliteApp;
+		};
+		4DF21CC429C2678A00B1C403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF21CA129C2678800B1C403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF21CA829C2678800B1C403;
+			remoteInfo = SatelliteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF21CA929C2678800B1C403 /* SatelliteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatelliteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF21CAC29C2678800B1C403 /* SatelliteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteApp.swift; sourceTree = "<group>"; };
+		4DF21CAE29C2678800B1C403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DF21CB029C2678900B1C403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF21CB329C2678900B1C403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DF21CB929C2678A00B1C403 /* SatelliteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelliteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF21CBD29C2678A00B1C403 /* SatelliteAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteAppTests.swift; sourceTree = "<group>"; };
+		4DF21CC329C2678A00B1C403 /* SatelliteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelliteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF21CC729C2678A00B1C403 /* SatelliteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteAppUITests.swift; sourceTree = "<group>"; };
+		4DF21CC929C2678A00B1C403 /* SatelliteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DF21CD629C26A5300B1C403 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		4DF21CD829C27AB300B1C403 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		4DF21CDA29C287D700B1C403 /* SatelliteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteView.swift; sourceTree = "<group>"; };
+		4DF21CDC29C2990A00B1C403 /* SatelliteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF21CA629C2678800B1C403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF21CE029C2A35100B1C403 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CB629C2678A00B1C403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CC029C2678A00B1C403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF21CA029C2678800B1C403 = {
+			isa = PBXGroup;
+			children = (
+				4DF21CAB29C2678800B1C403 /* SatelliteApp */,
+				4DF21CBC29C2678A00B1C403 /* SatelliteAppTests */,
+				4DF21CC629C2678A00B1C403 /* SatelliteAppUITests */,
+				4DF21CAA29C2678800B1C403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF21CAA29C2678800B1C403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF21CA929C2678800B1C403 /* SatelliteApp.app */,
+				4DF21CB929C2678A00B1C403 /* SatelliteAppTests.xctest */,
+				4DF21CC329C2678A00B1C403 /* SatelliteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF21CAB29C2678800B1C403 /* SatelliteApp */ = {
+			isa = PBXGroup;
+			children = (
+				4DF21CAC29C2678800B1C403 /* SatelliteApp.swift */,
+				4DF21CAE29C2678800B1C403 /* ContentView.swift */,
+				4DF21CD629C26A5300B1C403 /* SecondView.swift */,
+				4DF21CD829C27AB300B1C403 /* ThirdView.swift */,
+				4DF21CDA29C287D700B1C403 /* SatelliteView.swift */,
+				4DF21CDC29C2990A00B1C403 /* SatelliteModel.swift */,
+				4DF21CB029C2678900B1C403 /* Assets.xcassets */,
+				4DF21CB229C2678900B1C403 /* Preview Content */,
+			);
+			path = SatelliteApp;
+			sourceTree = "<group>";
+		};
+		4DF21CB229C2678900B1C403 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DF21CB329C2678900B1C403 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DF21CBC29C2678A00B1C403 /* SatelliteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF21CBD29C2678A00B1C403 /* SatelliteAppTests.swift */,
+			);
+			path = SatelliteAppTests;
+			sourceTree = "<group>";
+		};
+		4DF21CC629C2678A00B1C403 /* SatelliteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF21CC729C2678A00B1C403 /* SatelliteAppUITests.swift */,
+				4DF21CC929C2678A00B1C403 /* SatelliteAppUITestsLaunchTests.swift */,
+			);
+			path = SatelliteAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF21CA829C2678800B1C403 /* SatelliteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF21CCD29C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteApp" */;
+			buildPhases = (
+				4DF21CA529C2678800B1C403 /* Sources */,
+				4DF21CA629C2678800B1C403 /* Frameworks */,
+				4DF21CA729C2678800B1C403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatelliteApp;
+			packageProductDependencies = (
+				4DF21CDF29C2A35100B1C403 /* Alamofire */,
+			);
+			productName = SatelliteApp;
+			productReference = 4DF21CA929C2678800B1C403 /* SatelliteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF21CB829C2678A00B1C403 /* SatelliteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF21CD029C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteAppTests" */;
+			buildPhases = (
+				4DF21CB529C2678A00B1C403 /* Sources */,
+				4DF21CB629C2678A00B1C403 /* Frameworks */,
+				4DF21CB729C2678A00B1C403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF21CBB29C2678A00B1C403 /* PBXTargetDependency */,
+			);
+			name = SatelliteAppTests;
+			productName = SatelliteAppTests;
+			productReference = 4DF21CB929C2678A00B1C403 /* SatelliteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DF21CC229C2678A00B1C403 /* SatelliteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF21CD329C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteAppUITests" */;
+			buildPhases = (
+				4DF21CBF29C2678A00B1C403 /* Sources */,
+				4DF21CC029C2678A00B1C403 /* Frameworks */,
+				4DF21CC129C2678A00B1C403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF21CC529C2678A00B1C403 /* PBXTargetDependency */,
+			);
+			name = SatelliteAppUITests;
+			productName = SatelliteAppUITests;
+			productReference = 4DF21CC329C2678A00B1C403 /* SatelliteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF21CA129C2678800B1C403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4DF21CA829C2678800B1C403 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4DF21CB829C2678A00B1C403 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4DF21CA829C2678800B1C403;
+					};
+					4DF21CC229C2678A00B1C403 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4DF21CA829C2678800B1C403;
+					};
+				};
+			};
+			buildConfigurationList = 4DF21CA429C2678800B1C403 /* Build configuration list for PBXProject "SatelliteApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF21CA029C2678800B1C403;
+			packageReferences = (
+				4DF21CDE29C2A35100B1C403 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 4DF21CAA29C2678800B1C403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF21CA829C2678800B1C403 /* SatelliteApp */,
+				4DF21CB829C2678A00B1C403 /* SatelliteAppTests */,
+				4DF21CC229C2678A00B1C403 /* SatelliteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF21CA729C2678800B1C403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF21CB429C2678900B1C403 /* Preview Assets.xcassets in Resources */,
+				4DF21CB129C2678900B1C403 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CB729C2678A00B1C403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CC129C2678A00B1C403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF21CA529C2678800B1C403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF21CD929C27AB300B1C403 /* ThirdView.swift in Sources */,
+				4DF21CDD29C2990A00B1C403 /* SatelliteModel.swift in Sources */,
+				4DF21CD729C26A5300B1C403 /* SecondView.swift in Sources */,
+				4DF21CAF29C2678800B1C403 /* ContentView.swift in Sources */,
+				4DF21CAD29C2678800B1C403 /* SatelliteApp.swift in Sources */,
+				4DF21CDB29C287D700B1C403 /* SatelliteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CB529C2678A00B1C403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF21CBE29C2678A00B1C403 /* SatelliteAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF21CBF29C2678A00B1C403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF21CCA29C2678A00B1C403 /* SatelliteAppUITestsLaunchTests.swift in Sources */,
+				4DF21CC829C2678A00B1C403 /* SatelliteAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF21CBB29C2678A00B1C403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF21CA829C2678800B1C403 /* SatelliteApp */;
+			targetProxy = 4DF21CBA29C2678A00B1C403 /* PBXContainerItemProxy */;
+		};
+		4DF21CC529C2678A00B1C403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF21CA829C2678800B1C403 /* SatelliteApp */;
+			targetProxy = 4DF21CC429C2678A00B1C403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DF21CCB29C2678A00B1C403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DF21CCC29C2678A00B1C403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF21CCE29C2678A00B1C403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatelliteApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF21CCF29C2678A00B1C403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatelliteApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DF21CD129C2678A00B1C403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatelliteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SatelliteApp";
+			};
+			name = Debug;
+		};
+		4DF21CD229C2678A00B1C403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatelliteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SatelliteApp";
+			};
+			name = Release;
+		};
+		4DF21CD429C2678A00B1C403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatelliteApp;
+			};
+			name = Debug;
+		};
+		4DF21CD529C2678A00B1C403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.SatelliteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatelliteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF21CA429C2678800B1C403 /* Build configuration list for PBXProject "SatelliteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF21CCB29C2678A00B1C403 /* Debug */,
+				4DF21CCC29C2678A00B1C403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF21CCD29C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF21CCE29C2678A00B1C403 /* Debug */,
+				4DF21CCF29C2678A00B1C403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF21CD029C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF21CD129C2678A00B1C403 /* Debug */,
+				4DF21CD229C2678A00B1C403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF21CD329C2678A00B1C403 /* Build configuration list for PBXNativeTarget "SatelliteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF21CD429C2678A00B1C403 /* Debug */,
+				4DF21CD529C2678A00B1C403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DF21CDE29C2A35100B1C403 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DF21CDF29C2A35100B1C403 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DF21CDE29C2A35100B1C403 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DF21CA129C2678800B1C403 /* Project object */;
+}
